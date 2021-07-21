@@ -1,5 +1,9 @@
-@media (max-width: 700px) {
-   *{
+
+   
+
+
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -58,10 +62,9 @@ h1:hover span{
 
 }
 
-.sidebar, li{
+.sidebar{
   display: block;
   background-color: #33334d;
- 
   
   word-spacing: 10px;
   list-style: none;
@@ -69,6 +72,11 @@ h1:hover span{
 
   
   
+}
+
+li{
+  padding-left: 43%;
+
 }
 .line{
   background-color: grey;
@@ -107,9 +115,10 @@ padding-bottom: 10px;
 
 
 }
-.abt{
+p{
 
-  padding-left: 15%;
+  text-align: center;
+  word-spacing: 2px;
 
   
 }
@@ -117,7 +126,7 @@ padding-bottom: 10px;
 .owner{
  width: 50px;
  border-radius: 40px;
- margin-left: 43%;
+ margin-left: 48%;
  border: 2px solid grey;
 
 }
@@ -131,9 +140,8 @@ padding-bottom: 10px;
 }
 
 .contact{
-
-  padding-left: 35%;
-  padding-right: 35%;
+  padding-left: 44.90%;
+  width: 55%;
 
  
 }
@@ -141,7 +149,12 @@ padding-bottom: 10px;
 .lin{
   width: 20%;
 }
-}
+
+
+
+
+
+
 
 
 
