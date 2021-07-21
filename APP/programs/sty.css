@@ -1,3 +1,8 @@
+
+   
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -57,17 +62,21 @@ h1:hover span{
 
 }
 
-.sidebar, li{
+.sidebar{
   display: block;
   background-color: #33334d;
-  margin-left: 30%;
-  margin-right: 30%;
+ 
   word-spacing: 10px;
   list-style: none;
   text-align: center;
 
   
   
+}
+
+li{
+  padding-left: 30%;
+
 }
 .line{
   background-color: grey;
@@ -106,9 +115,11 @@ padding-bottom: 10px;
 
 
 }
-.abt{
+p{
 
-  padding-left: 15%;
+  text-align: center;
+  word-spacing: 2px;
+  font-size: 12px;
 
   
 }
@@ -130,9 +141,9 @@ padding-bottom: 10px;
 }
 
 .contact{
-
-  padding-left: 35%;
-  padding-right: 35%;
+  padding-left: 42%;
+  
+  width: 69%;
 
  
 }
@@ -140,5 +151,15 @@ padding-bottom: 10px;
 .lin{
   width: 20%;
 }
+
+
+
+
+
+
+
+
+
+
 
 
