@@ -60,8 +60,7 @@ h1:hover span{
 .sidebar, li{
   display: block;
   background-color: #33334d;
-  marging-left: 30%;
-  marging-right: 40%;
+ 
   
   word-spacing: 10px;
   list-style: none;
