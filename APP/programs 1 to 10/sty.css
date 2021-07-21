@@ -1,3 +1,8 @@
+
+   
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -114,6 +119,7 @@ p{
 
   text-align: center;
   word-spacing: 2px;
+  font-size: 12px;
 
   
 }
@@ -135,8 +141,9 @@ p{
 }
 
 .contact{
-  padding-left: 44.90%;
-  width: 55%;
+  padding-left: 39%;
+  
+  width: 69%;
 
  
 }
