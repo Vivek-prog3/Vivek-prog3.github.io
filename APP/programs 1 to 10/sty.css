@@ -65,7 +65,7 @@ h1:hover span{
 .sidebar{
   display: block;
   background-color: #33334d;
-  
+ 
   word-spacing: 10px;
   list-style: none;
   text-align: center;
@@ -75,7 +75,7 @@ h1:hover span{
 }
 
 li{
-  padding-left: 43%;
+  padding-left: 36%;
 
 }
 .line{
