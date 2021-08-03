@@ -1,0 +1,285 @@
+body{
+	margin: 0;
+    padding: 0;  
+    padding-bottom: 5%;
+	background-color: #ff4d6a;
+	text-align: center;
+
+}
+
+
+/* bigshot one font */
+
+
+
+svg{
+	font-weight:bold;
+	width: 20%;
+
+    
+    
+
+
+}
+
+
+.upper{
+	text-align: center;
+	padding-top: 5%;
+	font-family: 'Quintessential', cursive;
+	color: white;
+	font-size: xxx-large;
+}
+
+p{
+	text-align: center;
+	margin-top: -60px;
+	color: white;
+	font-family: 'Overlock SC', cursive;
+}
+
+.stickyicon-list {   
+position: fixed; 
+top: 45%;   
+transform: translateY(-50%);             
+}         
+.stickyicon-list a {   
+display: block;   
+text-align: center;   
+padding: 8px;   
+transition: all 0.5s ease;   
+color: white;   
+font-size: 20px;   
+}         
+/* HOver affect on sticky social media icons */   
+.stickyicon-list a:hover {   
+color: #000;   
+width:10px;   
+}   
+   
+/* Now we have to design each icon of social media */         
+.facebook {   
+background: #3b5998;   
+color: white;  
+}         
+.twitter {   
+color: white;   
+background: #00acee;   
+}   
+.linkedin {   
+background: #0e76a8;   
+color: white;   
+}         
+.google {   
+color: white;   
+background: #db4a39;   
+}   
+.instagram {   
+background: #3f729b;   
+color: white;   
+}         
+.youtube {   
+color: white;   
+background: #c4302b;    
+}   
+
+
+
+.about{
+	display: block;
+	margin-right: 75%;
+	margin-left: 10%;
+	background-color: #33ccff;
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+}
+
+.im{
+	display: inline-block;
+	float: left;
+    margin-bottom: 3%;
+    padding-left: 18px;
+
+    width:300px;height:300px;
+    border-radius: 150px;
+    box-shadow: 10px 5px 5px #ff9999;
+
+}
+
+.container{
+	background-color: #ffe6f0;
+	padding-bottom: 10%;
+	padding-left: 5%;
+	margin-right: 8%;
+    border-radius: 4px;
+	padding-top: 2%;
+	margin-left: 10%;
+}
+.text{
+     margin-top: 6%;
+     text-align: center;
+     font-family: 'Indie Flower', cursive;
+     color: #ff0066;
+     padding-right: 35px;
+   
+
+
+ }
+
+
+
+.image-list-small {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  display: inline-block;
+}
+
+.image-list-small li {
+  display: inline-block;
+  width: 181px;
+  margin: 0 12px 30px;
+
+  
+}
+
+
+/* Photo */
+
+.image-list-small li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 137px;
+  margin: 0;
+  padding: 0;
+  border: 4px solid #ffffff;
+  outline: 1px solid #d0d0d0;
+  box-shadow: 0 2px 1px #DDD;
+  transition: .25s;
+  
+}
+.image-list-small li > a:hover{
+    transform: scale(1.1);
+    transition: .25s;
+}
+
+.image-list-small .details {
+  margin-top: 13px;
+}
+
+
+/* Title */
+
+.image-list-small .details h3 {
+  display: block;
+  font-size: 14px;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-list-small .details h3 a {
+  color: #303030;
+  text-decoration: none;
+}
+
+.image-list-small .details .image-author {
+  display: block;
+  color: #717171;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.container2{
+	background-color: #ffe6f0;
+	
+	padding-left: 18%;
+	padding-right: 16%;
+	margin-right: 8%;
+    border-radius: 4px;
+	padding-top: 5%;
+	margin-left: 10%;
+	padding-bottom: 5%;
+}
+
+.about2{
+	display: block;
+	margin-right: 65%;
+	margin-left: 10%;
+	background-color: #33ccff;
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+
+}
+
+
+span{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+span a:before,
+span a:after{
+  position: absolute;
+  content: "My Resume";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px #99ff99;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before{
+  color: #ff3300;
+  background: #99ff99;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+  color: white;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.container3{
+	background-color: #ffe6f0;
+	
+	padding-left: 14%;
+	padding-right: 16%;
+	margin-right: 8%;
+    border-radius: 4px;
+	padding-top: 5%;
+	margin-left: 10%;
+	padding-bottom: 5%;
+
+
+}
+
